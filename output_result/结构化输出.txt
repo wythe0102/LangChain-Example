@@ -1,0 +1,1 @@
+{'bad_string': 'welcom to china!', 'good_string': 'Welcome to China!'}

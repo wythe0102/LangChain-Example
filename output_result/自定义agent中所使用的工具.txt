@@ -1,0 +1,25 @@
+
+
+> Entering new AgentExecutor chain...
+I should search for information on Leo DiCaprio's girlfriend and then use a calculator to raise her current age to the 0.43 power.
+Action: Search
+Action Input: "Leo DiCaprio girlfriend"
+Observation: Ever since Vittoria Ceretti was first romantically linked to Leonardo DiCaprio in 2023, public interest in the model has soared. Ceretti, 25, isn't new to the modeling scene, and she has had a successful career on the runway for more than a decade.
+Thought:Now I need to use a calculator to raise 25 to the power of 0.43.
+Action: Calculator
+Action Input: 25^0.43
+
+> Entering new LLMMathChain chain...
+25^0.43```text
+25**0.43
+```
+...numexpr.evaluate("25**0.43")...
+
+Answer: 3.991298452658078
+> Finished chain.
+
+Observation: Answer: 3.991298452658078
+Thought:I now know the final answer.
+Final Answer: 3.9913
+
+> Finished chain.

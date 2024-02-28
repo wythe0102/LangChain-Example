@@ -1,0 +1,17 @@
+
+
+> Entering new SQLDatabaseChain chain...
+How many sys role are there?
+SQLQuery:SELECT COUNT(*) AS total_sys_role FROM sys_role;
+SQLResult: [(2,)]
+Answer:There are 2 sys roles in the database.
+> Finished chain.
+
+
+> Entering new SQLDatabaseChain chain...
+Which sys role are there?
+SQLQuery:SELECT `role_id`, `role_name` 
+FROM `sys_role`;
+SQLResult: [(1, '超级管理员'), (2, '普通角色')]
+Answer:There are two sys roles: '超级管理员' with role_id 1 and '普通角色' with role_id 2.
+> Finished chain.
